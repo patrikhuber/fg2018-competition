@@ -37,7 +37,7 @@ The script performs the following steps to compute the 3DRMSE between a predicte
 3) These distances, along with the corresponding vertex index of the ground truth scan, are saved to a text file and used to compute the 3DRMSE as well as more specific analysis by the organisers, e.g. the distribution of errors across different face regions.
 
 ## Submission format
-The participants submit the resulting text files containing the computed mesh distances, along with a declaration that they have abided to the rules and protocol set out in this document (e.g. not having tuned the parameters for individual images). The files should be named having the same name as the ground truth scan, adding the text `_distances`, and with extension `.txt`, e.g. `distances_F1008_A.txt`.
+The participants submit the resulting text files containing the computed mesh distances, along with a declaration that they have abided to the rules and protocol set out in this document (e.g. not having tuned the parameters for individual images). The files should be named having the same name as the ground truth scan, adding the text `_distances`, and with extension `.txt`, e.g. `F1008_A_distances.txt`.
 
 # First run example
 
