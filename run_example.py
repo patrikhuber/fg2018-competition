@@ -3,7 +3,7 @@ import compute_vertices_to_mesh_distances as fg
 
 # Load a ground truth scan and its landmark annotations:
 groundtruth_scan = pymesh.load_mesh('F1008_A.obj') # from the challenge dataset
-grundtruth_landmark_points = fg.read_groundtruth('F1008_A_landmarks.txt')
+grundtruth_landmark_points = fg.read_groundtruth('annotations/F1008_A.lnd')
 
 # Load your predicted mesh - the script needs a list of vertices and faces (triangles):
 predicted_mesh = pymesh.load_mesh('your_mesh.obj')
