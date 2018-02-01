@@ -80,7 +80,7 @@ def read_groundtruth(filename):
         reader = csv.reader(csvfile, delimiter=' ')
         for row in reader:
             if row:  # there might be an empty line at the end of the file
-                groundtruth_points.append([float(row[0]), float(row[1]), float(row[2])])
+                groundtruth_points.append([float(row[1]), float(row[2]), float(row[3])])
     if len(groundtruth_points) != 7:
         raise Exception("Error: Expected 7 landmarks in the given ground truth file " + filename + ".")
     return groundtruth_points
