@@ -41,9 +41,9 @@ def compute_vertices_to_mesh_distances(groundtruth_vertices, grundtruth_landmark
         grundtruth_landmark_points[2])) / 2  # between the inner eye corners
     face_centre = nose_bottom + 0.3 * (nose_bridge - nose_bottom)
     # Compute the radius for the face mask:
-    outer_eye_dist = np.linalg.norm(np.array(grundtruth_landmark_points[0]) + np.array(grundtruth_landmark_points[3]))
+    outer_eye_dist = np.linalg.norm(np.array(grundtruth_landmark_points[0]) - np.array(grundtruth_landmark_points[3]))
     nose_dist = np.linalg.norm(nose_bridge - nose_bottom)
-    mask_radius = 1.5 * (outer_eye_dist + nose_dist) / 2
+    mask_radius = 1.2 * (outer_eye_dist + nose_dist) / 2
 
     # Find all the vertex indices in the ground truth scan that lie within the mask area:
     vertex_indices_mask = []  # vertex indices in the source mesh (the ground truth scan)
