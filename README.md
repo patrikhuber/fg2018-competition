@@ -2,7 +2,7 @@
 
 This repository contains the evaluation scripts for the FG2018 3D face reconstruction challenge.
 
-Website: https://facer2vm.org/fg2018/
+Website: https://facer2vm.org/px.php?dst=/fg2018.html
 
 # Installation
 
