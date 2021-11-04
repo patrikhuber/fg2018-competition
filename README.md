@@ -2,7 +2,7 @@
 
 This repository contains the evaluation scripts for the FG2018 3D face reconstruction challenge.
 
-Website: https://facer2vm.org/px.php?dst=/fg2018.html
+Website: https://facer2vm.org/fg2018.html
 
 # Installation
 
@@ -18,7 +18,7 @@ The script should now be able to import PyMesh via `import pymesh`.
 # Evaluation
 
 The task of the challenge is to reconstruct a face in 3D from a single 2D image input. The script provided here compares a reconstructed 3D mesh with a high-resolution 3D ground truth scan.
-For more information regarding the data and submission deadlines, please see the workshop website https://facer2vm.org/fg2018/.
+For more information regarding the data and submission deadlines, please see the workshop website https://facer2vm.org/fg2018.html.
 
 **Challenge rules**: One set of parameters has to be used for all images of all subjects. No fine-tuning is allowed on a per-image or per-subject basis.
 
